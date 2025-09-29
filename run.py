@@ -1,4 +1,6 @@
-from flaskblog import app
+from flaskblog import create_app
+
+app = create_app()
 
 #debug=True is used when we crated an app
 if __name__ == '__main__':
